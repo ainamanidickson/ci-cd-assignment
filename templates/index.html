@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>req-assignment1</title>
+    <style>
+        body{
+            font-family: Ariel, sans-serif;
+            font-size: 1.2rem;
+            margin-left:10%;
+            margin-right:10%;
+        }
+        h3{
+            color:black; 
+            text-align:center;
+        }
+
+        h5{
+            text-align:center;
+            color: blue;
+        }
+        p{
+           color:green; 
+        }
+        .list-par {
+            font-size: 18px;
+            color: black;
+            margin-bottom: 10px;
+          }
+          ul {
+            list-style: none;
+            margin: 0;
+            padding-bottom: 10px;
+            font-size: 18px;
+            color: black;
+          }
+          
+          ul li {
+            margin-bottom: 10px;
+            font-weight: bold;
+          }
+          
+    </style>
+</head>
+<body>
+    <h3>Requirements engineering assignment by Ainamani Dickson.</h3>
+    <h5>Let us talk about containerization.</h5>
+    <p>
+        Containerization is the process of packaging software and its dependencies into a container, ensuring that the application runs consistently across different environments.
+</p>
+<h4>Use cases for containerization.</h4>
+    <ul>
+        <li type="period">Microservices Architecture</li>
+            <p class="list-par">
+            Containers are small, lightweight and portable thus suitable for micro services architectures. The container has many loosely coupled and indepently deployable smaller services.
+        </p>
+        <li>DevOps(CI/CD)</li>
+            <p class="list-par">Containers facilitate DevOps practices by automating deployment processes.</p>
+        <li type="period">Web application deployment</li>
+            <p class="list-par">Containers are ideal for deploying web applications, as they provide a lightweight and isolated environment for each application makes it easy to scale and balance load, simplifify updates and improve security and resource unitilization.
+            </p>
+        <li type="period">Serverless applications</li>
+            <p class="list-par">It is used in creating serveless application which relieves delopers from thinking about server demands and constraints since they are kept in the background
+                </p>
+        <li type="period">Multi-tenancy</li>
+                <p class="list-par">The multi-tenancy architecture on containers is lightweight and faster.A container takes a few seconds to start compared to the gigabytes and minutes required to start a virtual machine.</p>
+        <li type="period">Multi-Cloud Deployment</li>
+                <p class="list-par">In case of multi-cloud or hybrid cloud deployment, one can use containers to deploy applications across the different cloud environments. Due to the portable nature of containers, it's rapidly move them from one cloud environment to another on-premise, to the cloud and viceversa</p>
+    </ul>
+    <h4>Containerization technologies </h4>
+    <ul>
+        <li>Docker. This is a widely used platform for building, sharing, and running containers.</li>
+        <li>Podman.This is daemonless, open-source container engine compatible with Docker CLI</li>
+        <li>Kubernetes.This is a powerful container orchestration platform for automating deployment, scaling, and management of containerized applications.</li>
+    </ul>
+    <h4>Role of Kubernetes in Container Orchestration</h4>
+    <ul>
+        <li>Automated Deployment.Deploy multiple containers with YAML configurations.</li>
+        <li>Scaling: Scale up/down containers based on demand.</li>
+        <li>Service Discovery: Manage networking and access between containers.</li>
+        <li>Load Balancing: Distribute traffic across containers.</li>
+    </ul>
+
+</body>
+</html>
