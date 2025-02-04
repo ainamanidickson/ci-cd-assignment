@@ -14,8 +14,8 @@ Make sure you have the following installed on your machine:
 Start by cloning this repository to your local machine:
 
 ```bash
-git clone https://github.com/<your-username>/<repository-name>.git
-cd <repository-name>
+git clone https://github.com/ainamanidickson/ci-cd-assignment.git
+cd ci-cd-assignment
 ## Build the Docker Image using the command
 - docker build -t assign-app 
 After building the image, you can run the container with the following command
